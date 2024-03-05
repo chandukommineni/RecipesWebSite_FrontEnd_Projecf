@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-flex{
+    background-color: rgb(31, 30, 30);
+    color: white;
+
+    font-weight: 700;
+    padding: 0px 20px;
+    width: 100vw;
+
+}
+.container-flex span{
+    color: rgb(235, 209, 80);
+}
+.container-flex p{
+    font-size: 1.8rem;
+}
+.nav-links{
+ padding-top: 10px;
+}
+.nav-links ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-links ul li{
+    list-style-type: none;
+
+}
+.nav-links ul li:hover{
+    color: rgb(235, 209, 80);
+}
+
+@media screen and (max-width:850px){
+    .logo{
+        text-align: center;
+    }
+     
+}

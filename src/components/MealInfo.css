@@ -1,0 +1,142 @@
+.info-conatiner{
+    margin-top: 10px;
+    background-color:#353333 ;
+    height: 75vh;
+    border-radius: 30px;
+}
+.bannerMeal{
+     /* height: 60vh; */
+     /* display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column; */
+     /* border: 2px solid yellow; */
+     height: 100%;
+     width: 100vw;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+.picture-container{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    /* border: 2px solid rgb(161, 38, 38); */
+}
+
+
+.card-img-top{
+    object-fit: cover;
+    width: 95%;
+    height: 95%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 25px;
+}
+.info-displayer{
+    
+    color: white;
+}
+.info-displayer h3{
+ color: rgb(226, 170, 29);
+}
+.info-displayer span{
+    color: white;
+}
+.images{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 5px 20px 5px;
+}
+.ingredients-container{
+    width: 100vw;
+    height: 60vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 2rem;
+}
+.ingredients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;border-radius: 10px;
+
+}
+.listOfIngredients{
+font-size: 1.2rem;
+position: relative;
+right: -30px;
+}
+.recipe-contianer{
+    height: 60vh;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+}
+.instruction-container{
+    font-size: 1.2rem;
+    max-height: 60vh;
+    overflow-y: auto;
+  
+    transition: transform 0.3s ease-in-out;
+ 
+}
+.instruction-container::-webkit-scrollbar {
+    width: 6px; /* Width of the scrollbar */
+  }
+  
+  .instruction-container::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 3px; /* Rounded corners for the thumb */
+  }
+
+@media screen and (min-width:760px)
+{
+  .picture-container{
+    margin-left: 20%;
+    border: 2px solid black;
+    width:400px ;
+    height:400px ;
+  }
+  .info-displayer h2{
+    font-size: 2.2rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .images{
+    width:20rem ;
+    height:20rem ;
+
+  }
+  .fontStyle{
+    font-weight: 600;
+  }
+  .image{
+    text-align: center;
+  }
+  .recipe-contianer,.ingredients-container,.videocontainer{
+    border-radius: 20px;
+  }
+}
+iframe{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.video{
+    text-align: center;
+    
+}
+.video h2{
+  font-size: 2rem;
+}
+.videocontainer{
+    margin-top: 25px;
+    border: 0.5px solid black;
+    width: 100%;
+    margin-bottom: 20px;
+}

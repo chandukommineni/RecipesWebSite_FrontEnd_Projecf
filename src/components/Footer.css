@@ -1,0 +1,35 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer h1 {
+    font-size: 24px;
+  }
+  
+  .footer-social a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  
+  .footer-social a:hover {
+    color: #ff8c00; /* Change the color on hover */
+  }
+  
+  .footer-copyright {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .footer-logo span{
+    color: #f8cc3a;
+  }

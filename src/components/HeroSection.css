@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Montserrat&family=Noto+Serif:ital@1&family=Raleway&display=swap');
+.banner {
+    width: 100vw;
+    height: 80vh;
+    background-image: url('../images/heroBanner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid yellow; */
+    height: 90%;
+    justify-content: center;
+    padding-left: 10%;
+
+}
+
+.info {
+    /* border: 2px solid white; */
+    width: 70%;
+    height: 18rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+  
+}
+.info h2{
+    font-size: 2.5rem;
+    
+}
+.info p{
+     font-family: 'Croissant One', cursive;
+}
+
+.input {
+   /* border: 2px solid red; */
+   height: 3rem;
+}
+
+
+.searchbar{
+ width: 85%;
+ height: 100%;
+ padding: 0px 15px;
+ border-radius: 10px;
+ outline: none;
+}
+.button{
+    height: 100%;
+    width: 15%;
+    background-color: rgb(238, 201, 37);
+    border-radius: 10px;
+    position: relative;
+}
+.button:hover{
+ color: rgb(238, 201, 37);
+ background-color: black;
+}
+.searchbar:focus{
+    outline: none;
+}
+@media only screen and (min-width: 850px) {
+    .banner-container {
+     padding-left: 10%;
+    
+    }
+    .info{
+        text-align: center;
+       
+    }
+    .info h2{
+        font-size: 3.5rem;
+        position: relative;
+        top: 5px;
+        left: -40px;
+    }
+    .info p{
+        font-size: 1.3rem;
+        position: relative;
+        top: 30px;
+    }
+
+  
+  }
+  @media screen and (max-width:800px) {
+    .input {
+        position: relative;
+        left: -20px;
+     }
+     .info{
+        position: relative;
+        left: -40px;
+     }
+   
+    
+  } 
