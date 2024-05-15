@@ -12,10 +12,16 @@ function App() {
 
   const [url, setUrl] = useState(" https:/www.themealdb.com/api/json/v1/1/search.php?f=a");
   const [items, setItems] = useState([])
-  useEffect(() => {
-    fetch(url).then(res => res.json()).then(data => setItems(data.meals))
-  }, [url])
+   const fetching=async()=>{
 
+    await fetch(url).then(res => res.json()).then(data => setItems(data.meals))
+
+  }
+  useEffect(() => {
+     
+    fetching();
+     
+  }, [url])
   return (
     <div className="App">
       <Navbar />
